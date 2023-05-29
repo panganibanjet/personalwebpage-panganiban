@@ -79,7 +79,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  margin-top: 110px;
+  margin-top: 20px;
   background-color: black;
   color: white;
   text-decoration: none;
@@ -98,6 +98,9 @@ body {
 
 .aboutpage {
   text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .personal {
@@ -123,38 +126,18 @@ h2 {
   margin-top: 5px;
 }
 
-.education {
-  text-align: center;
-}
-
-.educationdetails {
-  float: left;
-  padding-left: 100px;
-  margin-top: 5px;
-}
-
-.jobexperience {
-  text-align: center;
-}
-
-.jobdetails {
-  float: left;
-  padding-left: 60px;
-  margin-top: 5px;
-}
-
 .interest {
   text-align: center;
 }
 
 .hobbies {
   float: left;
-  padding-left: 15px;
+  padding-left: 45px;
   margin-top: 5px;
 }
 
 .favorites {
-  margin-left: -130px;
+  margin-left: -85px;
   margin-top: -10px;
 }
 
