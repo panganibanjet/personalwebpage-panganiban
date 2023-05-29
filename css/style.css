@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl7M60GmqAlIYVKB9Ikxgfe-nv88cACb6KNg&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.topbar {
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.topbar a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 12px;
+  margin-top: 3px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.topbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+}
+
+.topbar a.active {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.topbar-right {
+  float: right;
+}
+
+.logo {
+  padding: 0px;
+  margin-bottom: -10px;
+}
+
+.photo1 {
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px white solid;
+  margin-top: 50px;
+}
+
+.head1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.button {
+  transition-duration: 0.5s;
+  border: 2px white solid;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  margin-top: 110px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  width: 80%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  padding: 50px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/211/713/large_2x/black-shutter-aperture-with-white-outline-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.aboutpage {
+  text-align: center;
+}
+
+.personal {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  margin-left: -50px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.persondetails {
+  float: left;
+  padding-left: 50px;
+  margin-top: 5px;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+.education {
+  text-align: center;
+}
+
+.educationdetails {
+  float: left;
+  padding-left: 100px;
+  margin-top: 5px;
+}
+
+.jobexperience {
+  text-align: center;
+}
+
+.jobdetails {
+  float: left;
+  padding-left: 60px;
+  margin-top: 5px;
+}
+
+.interest {
+  text-align: center;
+}
+
+.hobbies {
+  float: left;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.favorites {
+  margin-left: -130px;
+  margin-top: -10px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+        width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding: 3px;
+  bottom: 0;
+  position: fixed;
+  font-size: 10px;
+  width: 100%;
+}
